@@ -149,7 +149,7 @@ const Style = () => {
       /* 深色模式下目录项的默认文字颜色和边框线颜色 */
       .dark #theme-hexo .catalog-item {
         color: white !important;
-        border-color: white !important;
+        border-color: black !important;
       }
       .dark #theme-hexo .catalog-item:hover {
         color: var(--theme-color) !important;
