@@ -29,7 +29,6 @@ const BlogPostListPage = ({ page = 1, posts = [], postCount, siteInfo }) => {
               index={posts.indexOf(post)}
               key={post.id}
               post={post}
-              prefetch={index < 5} 
               siteInfo={siteInfo}
             />
           ))}
