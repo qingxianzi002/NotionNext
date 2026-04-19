@@ -19,7 +19,7 @@ const Style = () => {
 
       // 底色
       #theme-hexo body {
-        background-color: black;
+        background-color: #000000;
       }
       .dark #theme-hexo body {
         background-color: black;
@@ -194,12 +194,12 @@ const Style = () => {
         width: 100%;
         height: 100%;
         background: linear-gradient(
-          to bottom,
-          rgba(0, 0, 0, 0.5) 0%,
-          rgba(0, 0, 0, 0.2) 10%,
-          rgba(0, 0, 0, 0) 25%,
-          rgba(0, 0, 0, 0.2) 75%,
-          rgba(0, 0, 0, 0.5) 100%
+            to bottom,
+            rgba(29, 78, 216, 0.5) 0%,    /* 顶部：深蓝半透明 */
+            rgba(59, 130, 246, 0.2) 10%,   /* 上10%：浅蓝淡一点 */
+            rgba(0, 0, 0, 0) 25%,           /* 中间：完全透明 */
+            rgba(59, 130, 246, 0.2) 75%,   /* 下75%：浅蓝淡一点 */
+            rgba(29, 78, 216, 0.5) 100%     /* 底部：深蓝半透明 */
         );
       }
 
